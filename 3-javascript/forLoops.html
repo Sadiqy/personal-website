@@ -1,0 +1,37 @@
+<html>
+
+    <head>
+        
+        <title>forLoops</title>
+        
+        <h1>For loop with list.</h1>
+    
+        
+    </head>
+    
+    <body>
+        
+        <div id="tweetDiv"></div>
+       
+        <script type="text/javascript">
+            
+            var tweetString = "";
+            
+            var tweets = ["Hi Sadiq", "Son Goku", "Vegeta Sama", "Beerus Sama"];
+            
+           for (var i = 0; i < tweets.length; i++) {
+               
+               tweetString = tweetString + "<p>" + tweets[i] + "</p>";
+           }
+            
+            document.getElementById("tweetDiv").innerHTML = tweetString;
+        
+        </script>
+        
+    </body>
+
+
+</html>
+
+
+                
